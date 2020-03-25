@@ -1,7 +1,7 @@
 ### Welcome to the updateservice wiki 
 
 #### Update
-See [this](/updateservice/Update) page for information about update service
+See [this](/Update.md) page for information about updateservice
 
 #### Build
-See [this](/updateservice/Build) page for information about build service
+See [this](/Build.md) page for information about how to build the service
