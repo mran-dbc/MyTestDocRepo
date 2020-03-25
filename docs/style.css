@@ -9,6 +9,14 @@ hr {
   border-style: none none dashed;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
 .about {
   width: 100%;
   max-width: 200px;
@@ -25,39 +33,9 @@ hr {
   font-family: 'Cutive Mono';
 }
 
-.container .buttons {
-  margin-top: 15px;
-  font-size: 1rem;
-}
-
-.container .buttons .button {
-  display: inline-block;
-}
-
 .container a {
   text-decoration: none;
   color: #0000EE;
-}
-
-.container article {
-  border: 3px dashed #000;
-  border-style: none none dashed;
-}
-
-.row {
-  position: relative;
-  width: 100%;
-}
-
-.row [class^="col"] {
-  float: left;
-  margin: 0.5rem 2%;
-  min-height: 0.125rem;
-}
-
-.col-1,
-.col-2 {
-  width: 96%;
 }
 
 @media only screen and (min-width: 33.75em) {
