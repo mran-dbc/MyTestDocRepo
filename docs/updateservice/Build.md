@@ -1,6 +1,9 @@
-Web service for retrieving a template and an unique identification number (FAUST) for a bibliographic record, based on the type of material and the record format. Used for cataloging purposes.
+# Updateservice build instructions
+Web service for retrieving a template and an unique identification number
+(FAUST) for a bibliographic record, based on the type of material and the
+record format. Used for cataloging purposes.
 
-### Versions
+## Versions
 
 | Endpoint                                        | Environment | WSDL                                           |
 |-------------------------------------------------|-------------|------------------------------------------------------|
@@ -8,23 +11,29 @@ Web service for retrieving a template and an unique identification number (FAUST
 | https://buildstaging.addi.dk/CatalogingBuildServices/OpenBuild | Staging | https://buildstaging.addi.dk/CatalogingBuildServices/OpenBuild?wsdl |
 | https://oss-services.dbc.dk/CatalogingBuildServices/OpenBuild | Test | https://oss-services.dbc.dk/CatalogingBuildServices/OpenBuild?wsdl |
 
-### Authentication
+## Authentication
 
 The service requester must be identified using their netpunkt-login. The purpose of the authentication is to ensure that a record can only be updated on behalf of the library that the record belongs to.
 
-### Template/schema documentation
+## Template/schema documentation
 
 http://www.danbib.dk/fbs#skabelon (in Danish)
 
-### Service operations:
+## Service operations:
 
 The service has one operation: build
 
-The build-operation can either take an existing bibliographic record and give it a new identifier or the recordData-element can be empty. If empty, a template matching the given schema name, record schema and record packing is returned.
+The build-operation can either take an existing bibliographic record and
+give it a new identifier or the recordData-element can be empty. If empty,
+a template matching the given schema name, record schema and record packing
+is returned.
 
-The only record schema currently supported is marcXchange v1.0, while xml is the only supported record packing.  
+The only record schema currently supported is marcXchange v1.0, while xml
+is the only supported record packing.  
 
-Available schema names can be retrieved using the getSchemas-operation of the update-web service. Each schema represents a different type of material (eg. a book, recorded music, film etc.)
+Available schema names can be retrieved using the getSchemas-operation of
+the update-web service. Each schema represents a different type of material
+(eg. a book, recorded music, film etc.)
 
 
 _**build-parameters:**_
@@ -53,9 +62,10 @@ _**buildResponse-parameters:**_
 | recordData|yes|no|bibliographicRecord|The bibliographic record, or the template for the bibliographic record, as created by the service, including the unique identifier (FAUST-number)|
 | extraRecordData|no|no|bibliographicRecord|Additional data for the bibliographic record|
  
-### Request examples
+## Request examples
 
-Retrieves an identification number and marcXchange template for a bibliographic record describing a book.
+Retrieves an identification number and marcXchange template for a
+bibliographic record describing a book.
 ```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cat="http://oss.dbc.dk/ns/catalogingBuild">
    <soapenv:Header/>

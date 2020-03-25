@@ -1,4 +1,4 @@
-# Build instructions
+# OpenOrder-webservice Build instructions
 
 ## Installation
 The webservice requires [class_lib](svn://oss.dbc.dk/sync_php/php/OpenLibrary/class_lib) to be installed in ./OLS_class_lib

@@ -1,6 +1,8 @@
-Web service for validating and committing bibliographic records to the original DB which is part of the Open Search data well complex.
+# Updateservice
+Web service for validating and committing bibliographic records to the original
+DB which is part of the Open Search data well complex.
 
-### Versions
+## Versions
 
 | Version | Endpoint                                        | Environment | WSDL                                           |
 |---------|-------------------------------------------------|-------------|------------------------------------------------------|
@@ -8,18 +10,24 @@ Web service for validating and committing bibliographic records to the original 
 | 2.0     | https://updatestaging.addi.dk/UpdateService/2.0 | staging     | https://updatestaging.addi.dk/UpdateService/2.0?wsdl |
 | 2.0     | http://oss-services.dbc.dk/UpdateService/2.0    | test        | http://oss-services.dbc.dk/UpdateService/2.0?wsdl    |
 
-### Authentication
+## Authentication
 
-The service requester must be identified using their netpunkt-login. The purpose of the authentication is to ensure that a record can only be updated on behalf of the library that the record belongs to.
+The service requester must be identified using their netpunkt-login. The
+purpose of the authentication is to ensure that a record can only be updated on
+behalf of the library that the record belongs to.
 
-### Template/schema documentation
+## Template/schema documentation
 
 http://www.danbib.dk/fbs#skabelon (in Danish)
 
-### Service operations
+## Service operations
 
 The service has two operations: updateRecord and getSchemas.
-updateRecord can be used to commit a record to the repository. The record is validated against the schema specified with the parameter schemaName. A schema represents a specific type of material (eg. book, movie, audio book). Available schema names can be retrieved using the getSchemas-operation.
+updateRecord can be used to commit a record to the repository. The record is
+validated against the schema specified with the parameter schemaName. A schema
+represents a specific type of material (eg. book, movie, audio book). Available
+schema names can be retrieved using the getSchemas-operation.
+
 If the parameter option is set to validate_only, the record is validated but not actually committed to the repository. 
 
 _**updateRecord-parameters:**_
@@ -94,8 +102,8 @@ _**getSchemasResponse-parameters:**_
 |error|if schemaStatus is not present|no|getSchemasResult|Possible value: authentication_error|
 
 
-### Request examples
-#### getSchema request:
+## Request examples
+### getSchema request:
 
 ```xml
  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cat="http://oss.dbc.dk/ns/catalogingUpdate">
@@ -114,7 +122,7 @@ _**getSchemasResponse-parameters:**_
  </soapenv:Envelope>
 ```
 
-#### updateRecord request:
+### updateRecord request:
 
 Example of a request that validates a record against the schema "bog".
 
