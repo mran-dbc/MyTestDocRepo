@@ -50,6 +50,6 @@ output-format can be set with parameter outputType. Default output format
 for SOAP and URL-requests is SOAP, and XML for XML-requests.
 
 ## Source code
-You can browse the source code of the web services at (github.com/DBCDK)
+You can browse the source code of the web services [on github](github.com/DBCDK)
 
 
