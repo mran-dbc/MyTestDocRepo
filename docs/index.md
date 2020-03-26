@@ -22,20 +22,6 @@ We use GNU Affero GPL 3 for Web services. GPL version 3 is used for all other so
 
 Read more about [our company.](http://www.dbc.dk/english)
 
-## Services
-This section contains an overview of DBC web services. For each service
-there is a link to a list of available versions, including links to the
-WSDL and service endpoint. DBC web services are always to be called with a
-specific version number (eg. https://opensearch.addi.dk/b3.5_5.2/).
-
-| Services                                               |
-|-------------------------------------------------------| 
-| [Updateservice](updateservice/Home.md)                |
-| [OpenOrder webservice](OpenOrder-webservice/Home.md)  |
-| [iso18626](iso18636/Home.md)                          |
-| [CULR](culrservice/Home.md)                           |
-| [Order Receipt](orderreceipt/Home.md)                 |
-
 ## Web service description
 The interfaces of all DBC web services are published in WSDL v1.1. The
 parameters that a web service takes for each of its functions, are desribed
