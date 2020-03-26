@@ -19,6 +19,11 @@ table, th, td {
   border: 1px solid black;
 }
 
+table, th {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .about {
   width: 100%;
   max-width: 200px;
