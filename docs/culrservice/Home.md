@@ -1,7 +1,7 @@
 # Welcome to the culrservice wiki
 
 ## Service description
-See [this](https://github.com/DBCDK/culrservice/wiki/Culrservice) page for an in-depth description of the service
+See [this](/Culrservice.md) page for an in-depth description of the service
 
 ## Build instructions
-See [this](https://github.com/DBCDK/culrservice/wiki/Build) page for instructions on how to build culrservices
+See [this](/Build.md) page for instructions on how to build culrservices
