@@ -5,8 +5,8 @@ body {
 }
 
 hr {
-  border: 3px dashed #000;
-  border-style: none none dashed;
+  border: 10px solid #00a1d2;
+  border-radius: 5px;
 }
 
 table {
