@@ -30,10 +30,11 @@ specific version number (eg. https://opensearch.addi.dk/b3.5_5.2/).
 
 | Service                                               |
 |-------------------------------------------------------| 
-| [Updateservice](/updateservice/Home.md)               |
-| [OpenOrder webservice](/OpenOrder-webservice/Home.md) |
+| [Updateservice](updateservice/Home.md)                |
+| [OpenOrder webservice](OpenOrder-webservice/Home.md)  |
 | [iso18626](iso18636/Home.md)                          |
 | [CULR](culrservice/Home.md)                           |
+| [Order Receipt](orderreceipt/Home.md)                 |
 
 ## Web service description
 The interfaces of all DBC web services are published in WSDL v1.1. The
