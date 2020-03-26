@@ -54,6 +54,3 @@ for SOAP and URL-requests is SOAP, and XML for XML-requests.
 
 ## Source code
 You can browse the source code of the web services [on github](http://github.com/DBCDK)
-
-
-{{ site.documents }}
