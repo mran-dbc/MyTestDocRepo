@@ -33,3 +33,7 @@ th {
   text-decoration: none;
   color: #0000EE;
 }
+
+.sidebar, .content {
+    padding: 5px;
+}
