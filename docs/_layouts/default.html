@@ -15,7 +15,8 @@
     </nav>
     <section class="container">
         <div class="sidebar">
-          {% include sidebar.md %}
+          {% capture a_sidebar %}{% include sidebar.md %}{% endcapture %}
+          {{ a_sidebar | markdownify }}
         </div>
         <div class="content">
           {{ content }}
