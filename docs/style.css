@@ -33,8 +33,3 @@ th {
   text-decoration: none;
   color: #0000EE;
 }
-
-.sidebar, .content {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-}
-
