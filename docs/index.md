@@ -28,7 +28,7 @@ there is a link to a list of available versions, including links to the
 WSDL and service endpoint. DBC web services are always to be called with a
 specific version number (eg. https://opensearch.addi.dk/b3.5_5.2/).
 
-| Service                                               |
+| Services                                               |
 |-------------------------------------------------------| 
 | [Updateservice](updateservice/Home.md)                |
 | [OpenOrder webservice](OpenOrder-webservice/Home.md)  |
