@@ -1,4 +1,4 @@
-<h1>Navigation</h1>
+<h1>Services</h1>
 
 <section>
 For each service there is a link to a list of available versions, including
@@ -8,7 +8,8 @@ https://opensearch.addi.dk/b3.5_5.2/).
 </section>
 
 <ul>
-   {% for page in site.data.navigation.pages %}
-      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+   {% assign pagelist = site.data.navigation.pages | sort: 'title' %}
+   {% for page in pagelist %}
+      <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
    {% endfor %}
 </ul>
