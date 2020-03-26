@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Welcome to the OpenOrder-webservice wiki!
 
 ## Service description
