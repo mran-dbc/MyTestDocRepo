@@ -10,3 +10,5 @@ pages:
     url: culrservice/Home
   - title: Order Receipt
     url: orderreceipt/Home
+  - title: Saouservice
+    url: saouservice/Home
