@@ -1,12 +1,12 @@
 ---
 pages:
   - title: Updateservice
-    url: updateservice/Home.md
+    url: /updateservice/Home.html
   - title: OpenOrder webservice
-    url: OpenOrder-webservice/Home.md
+    url: /OpenOrder-webservice/Home.html
   - title: iso18626
-    url: iso18636/Home.md
+    url: /iso18636/Home.html
   - title: CULR
-    url: culrservice/Home.md
+    url: /culrservice/Home.html
   - title: Order Receipt
-    url: orderreceipt/Home.md
+    url: /orderreceipt/Home.html
