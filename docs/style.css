@@ -34,3 +34,20 @@ th {
   text-decoration: none;
   color: #0000EE;
 }
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2 {
+  width: 96%;
+}
+
