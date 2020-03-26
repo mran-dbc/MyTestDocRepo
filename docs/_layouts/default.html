@@ -14,16 +14,15 @@
         </a>
     </nav>
     <section class="container">
-      <div class="row">
-        <div class="col-1">
-          Sitebar
+        <div class="sidebar">
+          {% include sidebar.md %}
         </div>
-      </div>
-      <div class="col-2">
-        {{ content }}
-      </div>
+        <div class="content">
+          {{ content }}
+        </div>
     </section>
     <footer>
+      <hr>
       Last updated: {{ site.time | date_to_long_string }}
       &copy; DBC A/S
     </footer>
