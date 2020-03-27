@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Welcome to the OpenOrder-webservice wiki!
+# Welcome to the OpenOrder-webservice documentation
 
 ## Service description
 See [this](/OpenOrderWebservice.md) page for an in-depth description of the service

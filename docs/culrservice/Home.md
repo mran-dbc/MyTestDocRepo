@@ -1,4 +1,4 @@
-# Welcome to the culrservice wiki
+# Welcome to the culrservice documentation
 
 ## Service description
 See [this](/Culrservice.md) page for an in-depth description of the service

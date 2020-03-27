@@ -1,4 +1,4 @@
-# Welcome to the updateservice wiki 
+# Welcome to the updateservice documentation
 
 ## Update
 See [this](/Update.md) page for information about updateservice

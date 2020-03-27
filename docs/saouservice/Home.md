@@ -1,4 +1,4 @@
-# Welcome to the saouservice wiki
+# Welcome to the saouservice documentation
 
 ## Service description
 See [this](/Saouservice.md) page for an in-depth description of the service
