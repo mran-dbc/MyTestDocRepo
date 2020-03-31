@@ -1,0 +1,12 @@
+<h1>Documentation on this site</h1>
+<div class="sidebar">
+    <ul>
+       {% assign pagelist = site.data.navigation.pages | sort: 'title' %}
+       {% for page in pagelist %}
+          <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+       {% endfor %}
+    </ul>
+</div>
+
+<h1>Source code</h1>
+You can browse the source code of the web services [on github](http://github.com/DBCDK)
